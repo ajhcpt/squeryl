@@ -6,7 +6,7 @@ organization := "org.squeryl"
 
 version := "0.9.17"
 
-javacOptions := Seq("-source", "1.6", "-target", "1.6")
+javacOptions := Seq("-source", "1.8", "-target", "1.8")
 
 //only release *if* -Drelease=true is passed to JVM
 version := {
